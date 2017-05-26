@@ -1,5 +1,8 @@
+import Scraper
+
 def main():
-    pass
+    scraper = Scraper.ApsaaScraper()
+    scraper.run()
 
 if __name__ == "__main__":
     main()

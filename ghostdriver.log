@@ -1,0 +1,17 @@
+[INFO  - 2017-05-26T21:54:10.980Z] GhostDriver - Main - running on port 54272
+[INFO  - 2017-05-26T21:54:11.880Z] Session [da3a1200-425d-11e7-911b-c10d10efb41d] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-05-26T21:54:11.880Z] Session [da3a1200-425d-11e7-911b-c10d10efb41d] - page.customHeaders:  - {}
+[INFO  - 2017-05-26T21:54:11.880Z] Session [da3a1200-425d-11e7-911b-c10d10efb41d] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-05-26T21:54:11.880Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: da3a1200-425d-11e7-911b-c10d10efb41d
+[ERROR - 2017-05-26T21:55:29.746Z] Session [da3a1200-425d-11e7-911b-c10d10efb41d] - page.onError - msg: TypeError: undefined is not an object (evaluating 'o.geometry')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-26T21:55:29.747Z] Session [da3a1200-425d-11e7-911b-c10d10efb41d] - page.onError - stack:
+  success (http://www.apsa.org/sites/all/modules/geouser/geouser.form.js?onbstz:15)
+  handleSuccess (http://www.apsa.org/misc/jquery.js?v=1.4.4:143)
+  onreadystatechange (http://www.apsa.org/misc/jquery.js?v=1.4.4:142)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2017-05-26T21:59:10.978Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-26T22:04:10.978Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-26T22:09:10.977Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
